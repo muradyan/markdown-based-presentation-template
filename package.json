@@ -1,0 +1,23 @@
+{
+  "name": "documentation-tempate",
+  "version": "0.0.1",
+  "description": "",
+  "author": "Arthur Muradyan",
+  "license": "",
+  "private": true,
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-bower-task": "^0.4.0",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-copy": "^0.5.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-graphviz": "^0.1.0",
+    "grunt-markdown": "^0.6.1",
+    "grunt-shower-markdown": "^0.2.0",
+    "grunt-markdown-pdf": "^2.1.1",
+    "grunt-toc": "^0.1.0"
+  },
+  "dependencies": {
+    "grunt-cli": "^0.1.13"
+  }
+}

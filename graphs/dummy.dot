@@ -1,0 +1,6 @@
+
+digraph mygraph {
+	AAA [shape=note]
+    BBB [shape=note]
+    AAA -> BBB
+}
