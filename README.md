@@ -11,15 +11,18 @@ npm install
 
 *NOTE:* that you need to have npm, nodejs already installed.
 
-This command will create the
-    - html/slides/index.html - slides (can be converted to pdf from
-      google-chrome)
-    - html/doc/src/doc.html - the documentation
-    - pdf/doc.pdf - the pdf version of the documentation
+This command
 
 ```
 ./node_modules/.bin/grunt
 ```
+
+will generate the following files:
+
+- html/slides/index.html - slides (can be converted to pdf from
+  google-chrome)
+- html/doc/src/doc.html - the documentation
+- pdf/doc.pdf - the pdf version of the documentation
 
 This command will watch and build if there are changes on either of the sources
 
@@ -33,3 +36,4 @@ This command will watch and build if there are changes on either of the sources
 - pdf/ - contains the pdf documetnation
 - html/ - contains the html version of the documetnation
 - package.json - dependency packages - required by npm
+
